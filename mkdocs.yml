@@ -1,0 +1,22 @@
+site_name: anywidget-instruments
+site_description: Core of the anywidget-instruments widget libraries
+site_url: https://anywidgetinstruments.github.io/anywidget-instruments/
+repo_url: https://github.com/AnywidgetInstruments/anywidget-instruments
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle: { icon: material/brightness-7, name: Dark theme }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle: { icon: material/brightness-4, name: Light theme }
+nav:
+  - Home: index.md
+  - Building a library: library.md
+  - Specification: specification.md
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences

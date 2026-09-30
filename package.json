@@ -1,0 +1,29 @@
+{
+  "name": "anywidget-instruments",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Base of the anywidget-instruments widget libraries: base view, trait contract runtime and generator, themes, liveness and base styles, as TypeScript sources bundled by each library.",
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "files": [
+    "js/src/",
+    "js/scripts/contract.mjs",
+    "src/anywidget_instruments/schema/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc -p .",
+    "test": "vitest run",
+    "lint": "eslint js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^22.20.4",
+    "eslint": "^9.0.0",
+    "globals": "^16.0.0",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.70.1",
+    "vitest": "^3.0.0"
+  }
+}

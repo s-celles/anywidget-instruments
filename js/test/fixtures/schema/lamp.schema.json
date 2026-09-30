@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schema/lamp.schema.json",
+  "title": "Lamp",
+  "description": "A test widget of a library built on anywidget-instruments.",
+  "type": "object",
+  "x-awi-class": "Lamp",
+  "allOf": [{ "$ref": "https://anywidgetinstruments.github.io/anywidget-instruments/schema/instrument.schema.json" }],
+  "properties": {
+    "_kind": { "const": "test-lamp", "default": "test-lamp", "x-awi-writer": "host" },
+    "mode": { "enum": ["indicator"], "default": "indicator", "x-awi-writer": "host" },
+    "value": { "enum": ["off", "on", null], "default": null, "x-awi-writer": "host", "description": "State of the lamp." },
+    "level": { "$ref": "https://anywidgetinstruments.github.io/anywidget-instruments/schema/instrument.schema.json#/$defs/optionalNumber", "default": null, "minimum": 0, "maximum": 1, "x-awi-writer": "host" }
+  }
+}
