@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software in teaching material, a publication or a
+  product, please cite it as below.
+title: "anywidget-instruments: the core of the anywidget instruments widget libraries"
+type: software
+authors:
+  - family-names: Celles
+    given-names: Sébastien
+    orcid: "https://orcid.org/0000-0001-9987-4338"
+    affiliation: "Université de Poitiers"
+version: 0.1.0.dev0
+license: BSD-3-Clause
+repository-code: "https://github.com/AnywidgetInstruments/anywidget-instruments"
+url: "https://anywidgetinstruments.github.io/anywidget-instruments/"
+abstract: >-
+  The base view, the base Python class, the base trait contract in JSON
+  Schema and its generator, the themes and the kernel liveness shared by
+  the widget libraries of the anywidget instruments family.
+keywords:
+  - widgets
+  - notebooks
+  - anywidget
+  - trait contract
+  - JSON Schema
+  - instrumentation
