@@ -15,6 +15,7 @@ nav:
   - Home: index.md
   - Building a library: library.md
   - Specification: specification.md
+  - The anywidget instruments family: https://anywidgetinstruments.github.io/
 markdown_extensions:
   - tables
   - admonition
